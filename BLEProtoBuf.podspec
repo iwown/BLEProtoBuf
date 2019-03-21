@@ -20,7 +20,7 @@ s.ios.deployment_target = "9.0"
 
 s.frameworks = 'Foundation'
 
-s.vendored_frameworks = 'BLEProtocBuf/BLEProtocBuff.framework'
+s.vendored_frameworks = 'BLEProtoBuf/BLEProtocBuff.framework'
 
 s.requires_arc = true
 
