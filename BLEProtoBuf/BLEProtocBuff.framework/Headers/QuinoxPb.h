@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)pbFileUpdateExitStatus:(NSInteger)status;
 
+/**! Action event for take picture*/
+- (void)notifyToTakePicture;
+
 @end
 
 NS_ASSUME_NONNULL_END
