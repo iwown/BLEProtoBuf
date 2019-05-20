@@ -56,6 +56,7 @@ typedef NS_ENUM(NSInteger ,PB_BKeyNotify) {
 @class PBSedentary;
 @class PBHWOption;
 @class PBMotor;
+@class PBAfConfModel;
 @protocol SolsticePb <NSObject>
 
 /**! Config of personal info setting in device, like height, weight, age and forth. Device has no way for correct arithmetic If not setting*/
@@ -70,6 +71,8 @@ typedef NS_ENUM(NSInteger ,PB_BKeyNotify) {
 - (void)syscTime:(NSDate *)date;
 /** Set GNSS location information*/
 - (void)setGNSSParameter:(PBGnssParam *)gp;
+/**! Switch config of atrial fibrillation detection method */
+- (void)setAf24HourConfig:(PBAfConfModel *)afModel;
 /** Set the target number of days and target calories on the day, a ring indicating the progress will be displayed on the home page of the device. If the device supports this method */
 - (void)setTargetOnceDay:(PBGoalOnceDay *)target;
 /**! Set don't disurb model*/

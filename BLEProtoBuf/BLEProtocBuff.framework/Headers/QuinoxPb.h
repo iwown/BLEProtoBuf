@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <BLEDragonBoat/DNBQuinox.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol QuinoxPb <BLEQuinox>
+@protocol QuinoxPb <DNBQuinox>
 
 @optional
 #pragma mark- PB_FileUpdate
