@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.name         = 'BLEProtoBuf'
 
-s.version      = "0.1.3"
+s.version      = "0.1.4"
 
 s.summary      = 'Iwown BLE protocol for D2'
 
