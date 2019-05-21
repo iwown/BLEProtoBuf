@@ -10,6 +10,7 @@ VERSION=$1
 
 cd /Users/scow/GitHub/BLEProtoBuf/ 
 sed -i "" "s/\([0-9]\)\.\([0-9]\)\.\([0-9]\)/${VERSION}/g" BLEProtoBuf.podspec
+git add .
 git commit -am "${VERSION}" 
 git push
 git tag ${VERSION}
