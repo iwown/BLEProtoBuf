@@ -19,4 +19,5 @@ FOUNDATION_EXPORT const unsigned char BLEProtocBuffVersionString[];
 
 #import <BLEProtocBuff/SolsticePb.h>
 #import <BLEProtocBuff/QuinoxPb.h>
+#import <BLEProtocBuff/BLEProtoBuf.h>
 
