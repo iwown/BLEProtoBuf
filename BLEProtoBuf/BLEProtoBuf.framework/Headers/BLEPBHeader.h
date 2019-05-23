@@ -14,10 +14,10 @@ FOUNDATION_EXPORT double BLEProtocBuffVersionNumber;
 //! Project version string for BLEProtocBuff.
 FOUNDATION_EXPORT const unsigned char BLEProtocBuffVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <BLEProtocBuff/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <BLEProtoBuf/PublicHeader.h>
 
 
-#import <BLEProtocBuff/SolsticePb.h>
-#import <BLEProtocBuff/QuinoxPb.h>
-#import <BLEProtocBuff/BLEProtoBuf.h>
+#import <BLEProtoBuf/SolsticePb.h>
+#import <BLEProtoBuf/QuinoxPb.h>
+#import <BLEProtoBuf/BLEProtoBuf.h>
 

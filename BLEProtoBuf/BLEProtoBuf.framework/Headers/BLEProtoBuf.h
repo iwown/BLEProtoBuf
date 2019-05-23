@@ -16,7 +16,4 @@
 @property (nonatomic ,strong) PBDataHandle *dataHandle;
 @property (nonatomic ,weak) id<QuinoxPb> pbQuinox;
 
-
-- (void)writeCharacteristicByPBOpt:(PB_Opt)optCode data:(NSData *)payload;
-
 @end
