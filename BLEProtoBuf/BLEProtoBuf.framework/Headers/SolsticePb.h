@@ -43,6 +43,14 @@ typedef NS_ENUM(NSInteger ,PB_BKeyNotify) {
     PB_BKN_GET_SearchPhone = 2,
 };
 
+
+typedef NS_ENUM(NSInteger ,PB_Error) {
+    PB_ErrorNull = 0,
+    PB_ErrorMissConnect = 0x01,
+    PB_ErrorNotSupply = 0x02,
+    PB_ErrorTimeOut = 0x04,
+};
+
 @class PBPersonalInfo;
 @class PBBloodPressureConf;
 @class PBHrAlarmConf;
