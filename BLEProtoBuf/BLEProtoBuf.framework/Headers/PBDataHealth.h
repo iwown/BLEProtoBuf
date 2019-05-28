@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign)float     calorie;     //单位：千卡
 //10进制，运动状态，1-开始，2-结束，3-暂停，4-运动持续中
 @property (nonatomic, assign)NSInteger state_type;
-@property (nonatomic, assign)NSInteger second;      //秒
+
 //自动识别某项运动，开始前已经运动的一段时间（单位：分钟），大于0表示运动为自动识别
 @property (nonatomic, assign)NSInteger pre_minute;
 //心率
@@ -55,21 +55,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PBDataGnss : DNBHealthData
 
-@property (nonatomic, strong)NSString  *uid;
-@property (nonatomic, strong)NSString  *data_from;
-@property (nonatomic, assign)NSInteger freq;
-@property (nonatomic, assign)NSInteger num;//经纬度个数
-@property (nonatomic, copy)NSString *jsonData;//经纬度 Json字符串
-
+@property (nonatomic, strong) NSString  *uid;
+@property (nonatomic, assign) NSInteger freq;
+@property (nonatomic, assign) NSInteger num;//经纬度个数
 @property (nonatomic ,strong) NSArray *dataArray;//经纬度 数组
-@property (nonatomic, strong)NSString  *cmd;
 
 @end
 
 
 @interface PBDataEcg : DNBHealthData
 
-@property (nonatomic, copy) NSString  *jsonData;
 @property (nonatomic ,strong) NSArray *dataArray;
 
 @end

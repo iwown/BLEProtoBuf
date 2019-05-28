@@ -1,19 +1,35 @@
 //
-//  BLEProtocBuf.h
-//  AutumnTest
+//  BLEProtocBuff.h
+//  BLEProtocBuff
 //
-//  Created by A$CE on 2018/8/9.
-//  Copyright © 2018年 A$CE. All rights reserved.
+//  Created by A$CE on 2018/10/16.
+//  Copyright © 2018年 Iwown. All rights reserved.
 //
 
-#import <BLEDragonBoat/BLEDragonBoat.h>
-#import "SolsticePb.h"
-#import "QuinoxPb.h"
+#import <UIKit/UIKit.h>
 
-@class PBDataHandle;
-@interface BLEProtoBuf : DNBSolsticeImpl<SolsticePb>
+//! Project version number for BLEProtocBuff.
+FOUNDATION_EXPORT double BLEProtocBuffVersionNumber;
 
-@property (nonatomic ,strong) PBDataHandle *dataHandle;
-@property (nonatomic ,weak) id<QuinoxPb> pbQuinox;
+//! Project version string for BLEProtocBuff.
+FOUNDATION_EXPORT const unsigned char BLEProtocBuffVersionString[];
 
-@end
+// In this header, you should import all the public headers of your framework using statements like #import <BLEProtoBuf/PublicHeader.h>
+
+
+#import <BLEProtoBuf/SolsticePb.h>
+#import <BLEProtoBuf/QuinoxPb.h>
+#import <BLEProtoBuf/BLEProtocBuff.h>
+#import <BLEProtoBuf/PBModel.h>
+#import <BLEProtoBuf/PBDataHealth.h>
+
+
+/*****************************************************************************
+ ****
+ ** BLEProtoBuf.h                            *   * * *
+ ** Version : 0.2.5                          *   *
+ ** Date : 2019-05-28                        * * * * *
+ **                                              *   *
+ **                                          * * *   *
+ ****
+ ***************************************************************************/
