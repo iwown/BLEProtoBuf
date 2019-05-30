@@ -27,8 +27,8 @@ FOUNDATION_EXPORT const unsigned char BLEProtocBuffVersionString[];
 /*****************************************************************************
  ****
  ** BLEProtoBuf.h                            *   * * *
- ** Version : 0.2.5                          *   *
- ** Date : 2019-05-28                        * * * * *
+ ** Version : 0.2.6                          *   *
+ ** Date : 2019-05-30                        * * * * *
  **                                              *   *
  **                                          * * *   *
  ****
