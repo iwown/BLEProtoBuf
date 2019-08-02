@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //16进制   0010 0001=21
 @property (nonatomic, assign)NSInteger data_type;
-//10进制 运动类型 sd_sportType
+//10进制 运动类型 dnb_sd_sportType
 @property (nonatomic, assign)NSInteger sport_type;
 @property (nonatomic, assign)NSInteger step;
 @property (nonatomic, assign)float     distance;    //单位：米
